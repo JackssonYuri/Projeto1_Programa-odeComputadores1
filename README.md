@@ -1,5 +1,11 @@
 # Projeto1_Programa-odeComputadores1
-Primeiro projeto de programação de computadores do ifb campus taguatinga. Aqui apresento meu código.
+Primeiro projeto de programação de computadores 01 do ifb campus taguatinga. Aqui apresento meu código.
+
+Instituto Federal de Educação, Ciência e Tecnologia de Brasília
+Campus Taguatinga
+Aluno: Jacksson Yuri de Amorim Wasterloô
+Curso: ABI - Computação
+
 
 No projeto usei:
 #define MIN_MATRIZ 10 //para dimensão mínima do caça-palavras
