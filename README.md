@@ -3,7 +3,9 @@ Primeiro projeto de programação de computadores do ifb campus taguatinga. Aqui
 
 No projeto usei:
 #define MIN_MATRIZ 10 //para dimensão mínima do caça-palavras
+
 #define MAX_MATRIZ 81 // dimensão máxima do caça-palavras
+
 #define MAX_PALAVRA 10 //tamanho máximo das palavras
 
 adicionei a biblioteca #include <locale.h> para imprimir as acentuações.
@@ -18,6 +20,7 @@ i = contador
 j = contador
 a = palavra
 z = contador
+encontrada = caso tenha sido encontrada = 0, não encontrada: encontrada = 1
 
 char:
 matriz[MIN_MATRIZ][MAX_MATRIZ]
