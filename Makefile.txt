@@ -1,0 +1,15 @@
+
+
+all: projeto1
+
+projeto1: main.o projeto1.o
+	gcc -o projeto1 main.o projeto1.o
+
+main.o: main.c moduloleitura.h
+	gcc -o main.o main.c -c -W -Wall -ansi -pedantic
+
+moduloLeitura.o: moduloLeitura.c moduloLeitura.h
+	gcc -o moduloLeitura.o moduloLeitura.c -c -W -Wall -ansi -pedantic
+
+clean: 
+rm -rf *.o *~ projeto1
